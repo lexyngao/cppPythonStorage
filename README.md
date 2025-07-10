@@ -85,6 +85,15 @@ memory mapping 方式：运行python/factorReader.py
 
 ## 实验结果
 
+### 数据写入log
+正在写入raw文件...
+数据写入成功！文件路径：./data/factors_raw.bin
+raw文件写入完成，耗时: 2 秒
+正在写入gz文件...
+数据写入成功！文件路径：./data/factors_gz.bin
+gz文件写入完成，耗时: 96 秒
+
+### 数据读取log
 === 测试GZ压缩读取 ===
 GZ读取耗时：0.909秒
 GZ文件大小：78.70MB
