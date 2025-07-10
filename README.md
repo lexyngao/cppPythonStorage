@@ -70,13 +70,14 @@ cppPythonStorage/
 
 ## 使用说明
 
-### C++ 端
+### STEP1:C++ 端
 
 运行src/main.cpp。可替换其中测试数据为所需数据。
 
-### Python 端
+### STEP2:Python 端
 
 memory mapping 方式：运行python/factorReader.py
+
 对照组gz方式：运行python/factorReaderGZ.py
 
 或可直接运行performanceComparison.py脚本查看阅读性能对比。
